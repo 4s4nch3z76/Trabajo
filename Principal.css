@@ -58,16 +58,16 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 542px;
+  min-height: 550px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  width: 570px;
-  margin: 60px auto 0 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 431px;
+  min-height: 440px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -86,29 +86,42 @@
   margin: 37px auto 0;
 }
 
+.u-section-2 .u-layout-cell-2 {
+  min-height: 440px;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 29px 0;
+}
+
 .u-section-2 .u-image-1 {
-  width: 546px;
-  height: 315px;
-  margin: -374px 0 60px auto;
+  width: 550px;
+  height: 317px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 466px;
-  }
-
-  .u-section-2 .u-layout-wrap-1 {
-    width: 470px;
+    min-height: 473px;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 355px;
+    min-height: 363px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 363px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 465px;
+    height: 268px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 211px;
+    min-height: 388px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -119,11 +132,20 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 278px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 355px;
+    height: 205px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 192px;
+    min-height: 627px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -131,19 +153,18 @@
     padding-right: 10px;
   }
 
-  .u-section-2 .u-image-1 {
-    width: 540px;
-    height: 311px;
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 417px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 92px;
+    min-height: 473px;
   }
 
-  .u-section-2 .u-layout-wrap-1 {
-    width: 340px;
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 263px;
   }
 
   .u-section-2 .u-image-1 {
